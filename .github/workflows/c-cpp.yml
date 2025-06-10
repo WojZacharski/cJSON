@@ -24,7 +24,6 @@ jobs:
 
       - name: Build project
         run: |
-          cd cJSON
           make
 
       - name: Test Build
